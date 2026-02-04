@@ -26,6 +26,8 @@ namespace Opgaver
 
             Console.WriteLine("Indtast en streng: ");
             // Lav opgaven herunder!
+            string? input = Console.ReadLine();
+            Console.WriteLine(input);
         }
 
         public static void Int1()
@@ -71,7 +73,6 @@ namespace Opgaver
             // Lav opgaven herunder!
         }
 
-        // Mini-projekt 2: BMI-beregner (skabelon)
         public static void MiniProjekt2()
         {
             Console.WriteLine("\nMini-projekt 2: BMI-beregner (skabelon)");
